@@ -2,7 +2,7 @@
 
 Pulitzer is a...
 
-![Pulitzer](https://github.com/andersnoren/pulitzer/blob/main/screenshot.jpg)
+![Pulitzer](https://github.com/andersnoren/pulitzer/blob/main/screenshot.png)
 
 Once it's released, you'll be able to download the latest stable release of Pulitzer [from WordPress.org](https://wordpress.org/themes/pulitzer/).
 
