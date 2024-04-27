@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Posts
+ * Title: posts
  * Slug: pulitzer/posts
  * Categories: hidden
  * Inserter: no

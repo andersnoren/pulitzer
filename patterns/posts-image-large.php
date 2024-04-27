@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Posts (large images)
+ * Title: posts-image-large
  * Slug: pulitzer/posts-image-large
  * Categories: hidden
  * Inserter: no
@@ -8,6 +8,8 @@
 ?>
 <!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":"100","offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","sticky":"","inherit":true},"layout":{"type":"default"}} -->
 <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default","columnCount":3}} -->
+<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
+
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:post-title {"isLink":true,"fontSize":"small"} /-->
 

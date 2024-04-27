@@ -86,7 +86,7 @@
 				},
 				{
 					"name": "32px",
-					"size": "clamp(24px, 3.2vw, 32px)",
+					"size": "32px",
 					"slug": "60"
 				},
 				{
@@ -221,6 +221,9 @@
 		"blocks": {
 			"core/avatar": {
 				"border": {
+					"color": "var(--wp--preset--color--contrast-5)",
+					"style": "solid",
+					"width": "1px",
 					"radius": "90px"
 				}
 			},
@@ -341,7 +344,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)",
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
 			"core/comment-edit-link": {
@@ -362,7 +365,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)",
-					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
 					"fontStyle": "normal",
 					"fontWeight": "500"
 				}
@@ -441,12 +444,22 @@
 			},
 			"core/gallery": {
 				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--50)"
+					"blockGap": "var(--wp--preset--spacing--50)",
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--70)",
+						"top": "var(--wp--preset--spacing--70)"
+					}
 				}
 			},
 			"core/image": {
 				"border": {
 					"radius": "8px"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--70)",
+						"top": "var(--wp--preset--spacing--70)"
+					}
 				}
 			},
 			"core/list": {
@@ -509,7 +522,12 @@
 					"fontWeight": "500"
 				}
 			},
-			"core/post-comments-form": [],
+			"core/post-comments-form": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)",
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
 			"core/post-date": {
 				"color": {
 					"text": "var(--wp--preset--color--contrast-2)"
@@ -586,7 +604,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)",
-					"fontSize": "var(--wp--preset--font-size--x-small)",
+					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontStyle": "normal",
 					"fontWeight": "400"
 				}
@@ -916,7 +934,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)",
-					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontSize": "var(--wp--preset--font-size--x-small)",
 					"fontStyle": "normal",
 					"fontWeight": "500",
 					"lineHeight": "1.5"

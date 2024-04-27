@@ -5,8 +5,6 @@
  * Inserter: no
  */
 ?>
-
-
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"21em"}} -->
 <div class="wp-block-group">
 	<!-- wp:heading {"textAlign":"center","level":1} -->

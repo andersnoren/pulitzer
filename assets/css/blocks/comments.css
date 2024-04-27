@@ -1,0 +1,18 @@
+.wp-block-comment-template ol {
+	padding-left: min( 2.75rem, 7.2vw );
+}
+
+.is-style-pulitzer-comment-edit-link a,
+.is-style-pulitzer-comment-reply-link a {
+	border: 1px solid var( --wp--preset--color--contrast-4 );
+	border-radius: 4px;
+	padding: .33em .5em;
+	transition: all .1s linear;
+}
+
+:root .is-style-pulitzer-comment-edit-link a:hover,
+:root .is-style-pulitzer-comment-reply-link a:hover {
+	background-color: var( --wp--preset--color--contrast-4 );
+	color: var( --wp--preset--color--contrast );
+	text-decoration: none;
+}

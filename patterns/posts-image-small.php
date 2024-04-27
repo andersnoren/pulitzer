@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Posts (small images)
+ * Title: posts-image-small
  * Slug: pulitzer/posts-image-small
  * Categories: hidden
  * Inserter: no

@@ -74,6 +74,33 @@ if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 	function pulitzer_block_styles() {
 
 		register_block_style(
+			'core/comment-edit-link',
+			array(
+				'name'			=> 'pulitzer-comment-edit-link',
+				'label'			=> __( 'Button', 'pulitzer' ),
+				'style_handle'	=> 'pulitzer-comment-edit-link-icon'
+			)
+		);
+
+		register_block_style(
+			'core/comment-reply-link',
+			array(
+				'name'			=> 'pulitzer-comment-reply-link',
+				'label'			=> __( 'Button', 'pulitzer' ),
+				'style_handle'	=> 'pulitzer-comment-reply-link-icon'
+			)
+		);
+
+		register_block_style(
+			'core/post-comments-number',
+			array(
+				'name'			=> 'pulitzer-post-comments-number-icon',
+				'label'			=> __( 'With icon', 'pulitzer' ),
+				'style_handle'	=> 'pulitzer-post-comments-number-icon'
+			)
+		);
+
+		register_block_style(
 			'core/post-excerpt',
 			array(
 				'name'			=> 'pulitzer-clamp-lines-2',
@@ -88,15 +115,6 @@ if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 				'name'			=> 'pulitzer-clamp-lines-3',
 				'label'			=> __( 'Clamp: 3 lines', 'pulitzer' ),
 				'style_handle'	=> 'pulitzer-clamp-lines-3'
-			)
-		);
-
-		register_block_style(
-			'core/post-comments-number',
-			array(
-				'name'			=> 'pulitzer-post-comments-number-icon',
-				'label'			=> __( 'With icon', 'pulitzer' ),
-				'style_handle'	=> 'pulitzer-post-comments-number-icon'
 			)
 		);
 
@@ -129,7 +147,7 @@ if ( ! function_exists( 'pulitzer_block_stylesheets' ) ) :
 		
 		$pulitzer_styled_blocks = array(
 			'core/button'                   => 'button',
-			'core/comment-reply-link'       => 'comment-reply-link',
+			'core/comments'                 => 'comments',
 			'core/post-comments-count'      => 'post-comments-count',
 			'core/post-comments-form'       => 'post-comments-form',
 			'core/post-excerpt'             => 'post-excerpt',

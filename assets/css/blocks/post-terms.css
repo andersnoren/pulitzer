@@ -1,0 +1,13 @@
+.is-style-pulitzer-post-terms a {
+	border: 1px solid var( --wp--preset--color--contrast-4 );
+	border-radius: 4px;
+	padding: .4em .7142857143em;
+	transition: all .1s linear;
+}
+
+:root .is-style-pulitzer-post-terms:not(.has-text-color) a:hover {
+	background-color: var( --wp--preset--color--contrast );
+	border-color: transparent;
+	color: var( --wp--preset--color--base );
+	text-decoration: none;
+}
