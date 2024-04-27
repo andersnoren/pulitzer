@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Posts
- * Slug: pulitzer/posts
+ * Title: Posts (large images)
+ * Slug: pulitzer/posts-image-large
  * Categories: hidden
  * Inserter: no
  */
@@ -12,7 +12,7 @@
 <div class="wp-block-group"><!-- wp:post-title {"isLink":true,"fontSize":"small"} /-->
 
 <!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-2"}}},"spacing":{"blockGap":"var:preset|spacing|20"}},"textColor":"contrast-2","layout":{"type":"flex","flexWrap":"nowrap"},"fontSize":"small","fontFamily":"system-sans-serif"} -->
-<div class="wp-block-group has-contrast-2-color has-text-color has-link-color has-system-sans-serif-font-family has-small-font-size"><!-- wp:post-date {"format":"M j, Y","isLink":true} /-->
+<div class="wp-block-group has-contrast-2-color has-text-color has-link-color has-system-sans-serif-font-family has-small-font-size"><!-- wp:post-date {"isLink":true} /-->
 
 <!-- wp:paragraph -->
 <p><?php echo __('•', 'pulitzer');?></p>
