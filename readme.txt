@@ -1,32 +1,23 @@
-=== Twenty Twenty-Four ===
-Contributors: wordpressdotorg
-Requires at least: 6.4
-Tested up to: 6.5
+=== Pulitzer ===
+Contributors: Anlino
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+Requires at least: 6.5
 Requires PHP: 7.0
-Stable tag: 1.1
+Tested up to: 6.5
+Stable tag: trunk
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-== Description ==
+== Installation ==
 
-Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
-
-== Changelog ==
-
-= 1.1 =
-* Released: April 2, 2024
-
-https://wordpress.org/documentation/article/twenty-twenty-four-changelog/#Version_1.1
-
-= 1.0 =
-* Released: November 7, 2023
-
-https://wordpress.org/documentation/article/twenty-twenty-four-changelog/#Version_1.0
+1. Make sure you're running WordPress 6.5 or later.
+2. Upload the theme.
+3. Activate the theme.
 
 == Copyright ==
 
-Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org
-Twenty Twenty-Four is distributed under the terms of the GNU GPL.
+Pulitzer WordPress Theme, (C) 2024 Anders Norén.
+Pulitzer is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -38,44 +29,24 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+== Licenses ==
 
-This theme bundles the following third-party resources:
+Pulitzer is derived from the Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org.
+Pulitzer is derived from the Norrsken WordPress Theme, (C) 2024 Anders Norén.
 
-=== Fonts ===
+Pulitzer bundles the following third-party resources:
 
-Cardo Font
-Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
+Newsreader font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: http://scholarsfonts.net
+Source: https://github.com/productiontype/Newsreader
 
-Instrument Sans Font
-Copyright 2022 The Instrument Sans Project Authors.
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://github.com/Instrument/instrument-sans
+=== Images in screenshot.png ===
 
-Inter Font
-Copyright 2020 The Inter Project Authors.
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://github.com/rsms/inter
+Joseph Pulitzer photograph
+License: CC0, https://creativecommons.org/public-domain/cc0/
+Source: https://commons.wikimedia.org/wiki/File:JosephPulitzerPinceNeznpsgov.jpg
 
-Jost Font
-Copyright 2020 The Jost Project Authors.
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://github.com/indestructible-type/Jost
+== Changelog ==
 
-=== Images ===
-
-License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
-
-museum.webp - https://www.rawpixel.com/image/3297419/free-photo-image-interior-hallway-architecture
-tourist-and-building.webp - https://www.rawpixel.com/image/5928004/photo-image-public-domain-hand-person
-building-exterior.webp - https://www.rawpixel.com/image/430335/free-photo-image-architecture-building-roof
-windows.webp - https://www.rawpixel.com/image/3286615/free-photo-image-texture-architecture-building
-abstract-geometric-art.webp - https://www.rawpixel.com/image/3283970/free-photo-image-pattern-artwork-abstract
-angular-roof.webp - https://www.rawpixel.com/image/3289063/free-photo-image-architectural-detail-architecture
-art-gallery.webp - https://www.rawpixel.com/image/3286187/free-photo-image-person-stairs-architecture
-green-staircase.webp - https://www.rawpixel.com/image/430558/free-photo-image-abstract-architecture-art-public-domain
-hotel-facade.webp - https://www.rawpixel.com/image/3286725/free-photo-image-black-and-white-background-photos
-
-License: UNICODE LICENSE V3 https://www.unicode.org/license.txt
-icon-message.webp
+Version 1.0.0 (2024-04-XX)
+-------------------------
