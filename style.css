@@ -42,7 +42,19 @@ label {
 	font-size: var(--wp--preset--font-size--x-small);
 }
 
-input, textarea, select {
+input[type="date"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea, 
+select {
 	background-color: var(--wp--preset--color--base);
 	border: 1px solid var(--wp--preset--color--contrast-4);
 	border-radius: 4px;
@@ -56,51 +68,6 @@ input, textarea, select {
 
 textarea {
 	height: 5lh;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-	appearance: none;
-	flex-shrink: 0;
-	height: 20px;
-	padding: 0;
-	width: 20px;
-}
-
-input[type="checkbox"] { border-radius: 4px; }
-input[type="radio"] { border-radius: 999px; }
-
-input[type="checkbox"]:checked,
-input[type="radio"]:checked {
-	background-color: var(--wp--preset--color--contrast);
-	border-width: 0;
-}
-
-select {
-	--chevron-size: 12px;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-	appearance: none;
-	background-image:
-		linear-gradient(45deg, transparent calc( 50% - .5px ), currentColor calc( 50% - .5px ), currentColor calc( 50% + .5px ), transparent calc( 50% + .5px ) ),
-		linear-gradient(-45deg, transparent calc( 50% - .5px ), currentColor calc( 50% - .5px ), currentColor calc( 50% + .5px ), transparent calc( 50% + .5px ) );
-	background-repeat: no-repeat;
-	background-position:
-		calc(100% - 1em - ( .5 * var( --chevron-size ) ) ) 100%,
-		calc(100% - 1em - ( 0 * var( --chevron-size ) ) ) 100%;
-	background-size:
-		calc( var( --chevron-size ) / 2 ), calc( var( --chevron-size ) / 2 ),
-		calc( var( --chevron-size ) / 2 ), calc( var( --chevron-size ) / 2 );
-	box-shadow: none;
-	color: var(--wp--preset--color--contrast);
-	max-width: 100%;
-	outline: none;
-	padding-right: 4em;
-	transition: border-color .1s linear;
-}
-
-select:focus {
-	border-color: var(--wp--preset--color--contrast-2);
 }
 
 
