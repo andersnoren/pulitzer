@@ -77,7 +77,7 @@ if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 			'core/post-excerpt',
 			array(
 				'name'			=> 'pulitzer-clamp-lines-2',
-				'label'			=> __( 'Clamp to three lines', 'pulitzer' ),
+				'label'			=> __( 'Clamp: 2 lines', 'pulitzer' ),
 				'style_handle'	=> 'pulitzer-clamp-lines-2'
 			)
 		);
@@ -86,7 +86,7 @@ if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 			'core/post-excerpt',
 			array(
 				'name'			=> 'pulitzer-clamp-lines-3',
-				'label'			=> __( 'Clamp to three lines', 'pulitzer' ),
+				'label'			=> __( 'Clamp: 3 lines', 'pulitzer' ),
 				'style_handle'	=> 'pulitzer-clamp-lines-3'
 			)
 		);

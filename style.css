@@ -29,6 +29,99 @@ a {
 	transition: color .1s linear;
 }
 
+
+/*
+ * Inputs
+ */
+::placeholder { 
+	color: var( --wp--preset--color--contrast-2 );
+}
+
+input, textarea, select {
+	background-color: var(--wp--preset--color--base);
+	border: 1px solid var(--wp--preset--color--contrast-4);
+	border-radius: 4px;
+	color: inherit;
+	font-family: var(--wp--preset--font-family--system-sans-serif);
+	letter-spacing: inherit;
+	line-height: 1.5;
+	margin: 0;
+	padding: .75em 1em;
+}
+
+textarea {
+	height: 5lh;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	appearance: none;
+	flex-shrink: 0;
+	height: 1.5em;
+	padding: 0;
+	width: 1.5em;
+}
+
+input[type="checkbox"] { border-radius: 4px; }
+input[type="radio"] { border-radius: 999px; }
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+	background-color: var(--wp--preset--color--contrast);
+}
+
+input[type="checkbox"]:checked {
+	--check-w: .5em;
+	--check-stroke: .133em;
+	--check-stroke-half: calc( var( --check-stroke ) / 2 );
+
+	background-image:
+		linear-gradient(45deg, transparent calc( 50% - var( --check-stroke-half ) ), currentColor calc( 50% - var( --check-stroke-half ) ), currentColor calc( 50% + var( --check-stroke-half ) ), transparent calc( 50% + var( --check-stroke-half ) ) ),
+		linear-gradient(-45deg, transparent calc( 50% - var( --check-stroke-half ) ), currentColor calc( 50% - var( --check-stroke-half ) ), currentColor calc( 50% + var( --check-stroke-half ) ), transparent calc( 50% + var( --check-stroke-half ) ) );
+	background-repeat: no-repeat;
+	background-position:
+		calc( 50% - ( var( --check-w ) / 2 ) ) calc( 50% + ( var( --check-w ) / 4 ) ),
+		calc( 50% + ( var( --check-w ) / 4 ) ) 50%;
+	background-size:
+		calc( var( --check-w ) / 2 ),
+		var( --check-w );
+	border-color: transparent;
+	color: var( --wp--preset--color--base );
+}
+
+input[type="radio"]:checked {
+	background-color: var(--wp--preset--color--contrast);
+	border-width: 0;
+}
+
+select {
+	--chevron-size: 12px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	appearance: none;
+	background-image:
+		linear-gradient(45deg, transparent calc( 50% - .5px ), currentColor calc( 50% - .5px ), currentColor calc( 50% + .5px ), transparent calc( 50% + .5px ) ),
+		linear-gradient(-45deg, transparent calc( 50% - .5px ), currentColor calc( 50% - .5px ), currentColor calc( 50% + .5px ), transparent calc( 50% + .5px ) );
+	background-repeat: no-repeat;
+	background-position:
+		calc(100% - 1em - ( .5 * var( --chevron-size ) ) ) 100%,
+		calc(100% - 1em - ( 0 * var( --chevron-size ) ) ) 100%;
+	background-size:
+		calc( var( --chevron-size ) / 2 ), calc( var( --chevron-size ) / 2 ),
+		calc( var( --chevron-size ) / 2 ), calc( var( --chevron-size ) / 2 );
+	box-shadow: none;
+	color: var(--wp--preset--color--contrast);
+	max-width: 100%;
+	outline: none;
+	padding-right: 4em;
+	transition: border-color .1s linear;
+}
+
+select:focus {
+	border-color: var(--wp--preset--color--contrast-2);
+}
+
+
 /*
  * Template Part: Footer
  */

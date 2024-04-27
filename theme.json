@@ -106,7 +106,7 @@
 				},
 				{
 					"name": "128px",
-					"size": "clamp(96px, 12.8vw, 128px)",
+					"size": "clamp(64px, 12.8vw, 128px)",
 					"slug": "100"
 				},
 				{
@@ -509,17 +509,6 @@
 					"fontWeight": "500"
 				}
 			},
-			"core/post-comments-count": {
-				"color": {
-					"text": "var(--wp--preset--color--contrast-2)"
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)",
-					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"fontStyle": "normal",
-					"fontWeight": "600"
-				}
-			},
 			"core/post-comments-form": [],
 			"core/post-date": {
 				"color": {
@@ -555,6 +544,26 @@
 			"core/post-featured-image": {
 				"border": {
 					"radius": "8px"
+				}
+			},
+			"core/post-navigation-link": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)",
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontStyle": "normal",
+					"fontWeight": "500"
 				}
 			},
 			"core/post-template": {
@@ -697,7 +706,8 @@
 					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)",
 					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontStyle": "normal",
-					"fontWeight": "500"
+					"fontWeight": "500",
+					"lineHeight": "inherit"
 				}
 			},
 			"core/quote": {
@@ -767,12 +777,20 @@
 				}
 			},
 			"core/search": {
+				"color": {
+					"background": "var(--wp--preset--color--base)",
+					"text": "var(--wp--preset--color--contrast)"
+				},
 				"elements": {
 					"button": {
 						"border": {
 							"radius": {
 								"ref": "styles.elements.button.border.radius"
 							}
+						},
+						"color": {
+							"background": "var(--wp--preset--color--base)",
+							"text": "var(--wp--preset--color--contrast)"
 						}
 					}
 				},
@@ -1011,5 +1029,5 @@
 		}
 	],
 	"version": 2,
-	"$schema": "https://schemas.wp.org/trunk/theme.json"
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
 }

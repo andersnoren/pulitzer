@@ -1,0 +1,15 @@
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
+	background-color: var( --wp--preset--color--base );
+	border-color: var( --wp--preset--color--contrast-4 );
+	border-radius: 4px;
+	padding: 0;
+}
+
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input {
+	padding: .75em 1em;
+}
+
+.wp-block-search__input {
+	background-color: transparent;
+	border-color: var( --wp--preset--color--contrast-4 );
+}

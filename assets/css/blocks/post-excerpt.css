@@ -1,0 +1,13 @@
+[class*="is-style-pulitzer-clamp-lines-"] p:first-child {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+
+.is-style-pulitzer-clamp-lines-2 p:first-child {
+	-webkit-line-clamp: 2;
+}
+
+.is-style-pulitzer-clamp-lines-3 p:first-child {
+	-webkit-line-clamp: 3;
+}
