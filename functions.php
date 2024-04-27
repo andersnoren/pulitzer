@@ -8,6 +8,31 @@
  * @since Pulitzer 1.0
  */
 
+
+/**
+ * Declare theme supports.
+ *
+ * @since Pulitzer 1.0
+ * @return void
+ */
+function pulitzer_setup() {
+	add_editor_style( array( 'style.css' ) );
+}
+add_action( 'after_setup_theme', 'pulitzer_setup' );
+
+
+/**
+ * Enqueue stylesheets.
+ *
+ * @since Pulitzer 1.0
+ * @return void
+ */
+function pulitzer_styles() {
+	wp_enqueue_style( 'pulitzer-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'pulitzer' )->get( 'Version' ) );
+}
+add_action( 'wp_enqueue_scripts', 'pulitzer_styles' );
+
+
 /**
  * Register block styles.
  */
