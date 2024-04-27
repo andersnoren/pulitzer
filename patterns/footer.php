@@ -1,14 +1,83 @@
 <?php
 /**
- * Title: Footer with colophon, 4 columns
+ * Title: footer
  * Slug: pulitzer/footer
- * Categories: footer
- * Block Types: core/template-part/footer
+ * Categories: hidden
+ * Inserter: no
  */
 ?>
+<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|80"},"border":{"top":{"color":"var:preset|color|contrast-5","width":"1px"},"bottom":{"color":"var:preset|color|contrast-5","width":"1px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--contrast-5);border-top-width:1px;border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"30%"} -->
+<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"fontSize":"small"} -->
+<h2 class="wp-block-heading has-small-font-size"><?php echo __('
+					About				', 'pulitzer');?></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-	
-</div>
+<!-- wp:column {"width":""} -->
+<div class="wp-block-column"><!-- wp:paragraph -->
+<p><?php echo __('
+					I’m Joseph Pulitzer, a Hungarian-American newspaper publisher. Known for revolutionizing journalism, I left a lasting mark in the form of the Pulitzer Prize.				', 'pulitzer');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><?php echo __('<a href="#"><em>Read more...</em></a>', 'pulitzer');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"30%"} -->
+<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"fontSize":"small"} -->
+<h2 class="wp-block-heading has-small-font-size"><?php echo __('
+					Newsletter				', 'pulitzer');?></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":""} -->
+<div class="wp-block-column"><!-- wp:paragraph -->
+<p><?php echo __('[
+					Newsletter]
+				', 'pulitzer');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"30%"} -->
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:30%"><!-- wp:heading {"fontSize":"small"} -->
+<h2 class="wp-block-heading has-small-font-size"><?php echo __('
+					Follow Me				', 'pulitzer');?></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","width":""} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:social-links {"iconColor":"base","iconColorValue":"#FFFFFF","iconBackgroundColor":"contrast","iconBackgroundColorValue":"#191716","className":"is-style-default"} -->
+<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"https://twitter.com","service":"x"} /-->
+
+<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+
+<!-- wp:social-link {"url":"/feed/","service":"feed"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|20"},"elements":{"link":{"color":{"text":"var:preset|color|contrast-2"}}}},"textColor":"contrast-2","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"},"fontSize":"x-small","fontFamily":"system-sans-serif"} -->
+<div class="wp-block-group has-contrast-2-color has-text-color has-link-color has-system-sans-serif-font-family has-x-small-font-size" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"style":{"spacing":{"blockGap":"0.3em"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p><?php echo __('
+				© 2024			', 'pulitzer');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:site-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph -->
+<p><?php echo __('
+			Theme by <a href="https://andersnoren.se">Anders Norén</a>		', 'pulitzer');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->

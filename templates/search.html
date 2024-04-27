@@ -1,14 +1,12 @@
 <!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"main","align":"full","layout":{"type":"constrained"}} -->
-<main class="wp-block-group alignfull">
+<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|100"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--100);padding-bottom:var(--wp--preset--spacing--100)">
 	<!-- wp:query-title {"type":"search","align":"wide","style":{"typography":{"lineHeight":"1"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|10"}}}} /-->
 
-	<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"840px","justifyContent":"left"}} -->
-	<div class="wp-block-group alignwide">
-		<!-- wp:pattern {"slug":"pulitzer/hidden-search"} /-->
-	</div>
-	<!-- /wp:group -->
+	<!-- wp:paragraph -->
+	<p>Posts</p>
+	<!-- /wp:paragraph -->
 
 	<!-- wp:pattern {"slug":"pulitzer/posts-3-col"} /-->
 </main>

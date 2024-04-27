@@ -26,4 +26,16 @@ body {
 a {
 	text-decoration-thickness: 1px;
 	text-underline-offset: 0.15em;
+	transition: color .1s linear;
+}
+
+/*
+ * Template Part: Footer
+ */
+footer.wp-block-template-part a[href="https://andersnoren.se"] {
+	text-decoration: none;
+}
+
+footer.wp-block-template-part a[href="https://andersnoren.se"]:hover {
+	text-decoration: underline;
 }
