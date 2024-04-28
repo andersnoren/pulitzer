@@ -24,9 +24,7 @@
 						<!-- wp:post-date {"format":"M j, Y","isLink":true} /-->
 
 						<!-- wp:paragraph -->
-						<p>
-							<?php echo __('•', 'pulitzer');?>
-						</p>
+						<p>•</p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"pulitzer/post-reading-time"}}}} -->

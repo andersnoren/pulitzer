@@ -215,7 +215,7 @@
 				{
 					"fluid": false,
 					"name": "Massive",
-					"size": "clamp( 96px, 12.8vw, 128px )",
+					"size": "clamp( 96px, 19.2vw, 128px )",
 					"slug": "massive"
 				}
 			],
@@ -1070,6 +1070,11 @@
 			"area": "posts",
 			"name": "posts-image-large",
 			"title": "Posts (large images)"
+		},
+		{
+			"area": "posts",
+			"name": "posts-cols-2-image",
+			"title": "Posts (two-column grid)"
 		}
 	],
 	"version": 2,
