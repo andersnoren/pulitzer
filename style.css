@@ -34,6 +34,14 @@ a, .wp-element-button {
 
 
 /*
+ * Helper classes
+ */
+
+.hide-empty:not(:has(*)) {
+	display: none;
+}
+
+/*
  * Inputs
  */
 ::placeholder { 
