@@ -2,7 +2,7 @@
 /**
  * Title: Page: Newsletter
  * Slug: pulitzer/page-newsletter
- * Categories: pulitzer-pages
+ * Categories: pulitzer, pulitzer-pages
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained"}} -->
