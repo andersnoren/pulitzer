@@ -53,7 +53,7 @@ label {
 	font-size: var(--wp--preset--font-size--x-small);
 }
 
-input, textarea, select {
+:where(input, textarea, select) {
 	background-color: var(--wp--preset--color--base);
 	border: 1px solid var(--wp--preset--color--contrast-4);
 	border-radius: 4px;
