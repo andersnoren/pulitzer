@@ -27,7 +27,7 @@
 	<!-- wp:group {"layout":{"type":"constrained","contentSize":"398px"}} -->
 	<div class="wp-block-group">
 		<?php if ( pulitzer_is_block_registered( 'jetpack/subscriptions' ) ) : ?>
-		<!-- wp:jetpack/subscriptions {"showSubscribersTotal":true,"includeSocialFollowers":false,"buttonOnNewLine":true,"buttonWidth":"100%","submitButtonText":"Sign up","borderRadius":4,"spacing":16,"className":"is-style-compact"} /-->
+		<!-- wp:jetpack/subscriptions {"showSubscribersTotal":true,"includeSocialFollowers":false,"buttonOnNewLine":true,"buttonWidth":"100%","submitButtonText":"Sign up","borderRadius":4,"spacing":16} /-->
 		<?php endif; ?>
 	</div>
 	<!-- /wp:group -->
