@@ -16,3 +16,6 @@
 	color: var( --wp--preset--color--contrast );
 	text-decoration: none;
 }
+
+.wp-block-comment-content > *:first-child { margin-top: 0; }
+.wp-block-comment-content > *:last-child { margin-bottom: 0; }

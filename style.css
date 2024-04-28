@@ -38,7 +38,7 @@ a, .wp-element-button {
  */
 
 .hide-empty:not(:has(*)) {
-	display: none;
+	display: none !important;
 }
 
 /*

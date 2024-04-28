@@ -33,13 +33,14 @@
 
 						<!-- wp:comment-content /-->
 
-						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-						<div class="wp-block-group">
+						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"className":"hide-empty","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+						<div class="wp-block-group hide-empty">
 							<!-- wp:comment-reply-link {"className":"is-style-pulitzer-comment-reply-link"} /-->
 
 							<!-- wp:comment-edit-link {"className":"is-style-pulitzer-comment-edit-link"} /-->
 						</div>
 						<!-- /wp:group -->
+
 					</div>
 					<!-- /wp:column -->
 				</div>
