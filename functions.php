@@ -309,7 +309,7 @@ endif;
 if ( ! function_exists( 'pulitzer_block_binding_callback_post_comments_count' ) ) :
 	/**
 	 * Block bindings callback
-	 * Post reading time.
+	 * Post comments count.
 	 *
 	 * @since Pulitzer 1.0
 	 * @return string
