@@ -877,6 +877,16 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)"
 				}
+			},
+			"jetpack/sharing-buttons": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)"
+				}
+			},
+			"jetpack/subscriptions": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)"
+				}
 			}
 		},
 		"color": {
