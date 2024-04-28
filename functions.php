@@ -183,6 +183,7 @@ endif;
 
 add_action( 'init', 'pulitzer_block_stylesheets' );
 
+
 /**
  * Register pattern categories.
  */
@@ -207,3 +208,23 @@ if ( ! function_exists( 'pulitzer_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'pulitzer_pattern_categories' );
+
+
+/**
+ * Check if a block is registered.
+ */
+
+if ( ! function_exists( 'pulitzer_is_block_registered' ) ) :
+	/**
+	 * Check if a block is registered.
+	 *
+	 * @since Pulitzer 1.0
+	 * @return bool
+	 */
+	function pulitzer_is_block_registered( $block_name ) {
+		$registry = WP_Block_Type_Registry::get_instance();
+ 		return $registry->get_registered( $block_name );
+	}
+endif;
+
+add_action( 'init', 'pulitzer_is_block_registered' );
