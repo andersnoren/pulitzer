@@ -10,6 +10,7 @@
 <div class="wp-block-query">
 
 	<!-- wp:post-template {"layout":{"type":"default","columnCount":3}} -->
+
 		<!-- wp:columns {"verticalAlignment":null,"isStackedOnMobile":false} -->
 		<div class="wp-block-columns is-not-stacked-on-mobile">
 			<!-- wp:column {"verticalAlignment":"stretch","width":"","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
@@ -30,6 +31,7 @@
 
 						<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"pulitzer/post-reading-time"}}}} -->
 						<p><?php echo __('[read time]', 'pulitzer');?></p>
+						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 				</div>
@@ -57,6 +59,7 @@
 			<!-- /wp:column -->
 		</div>
 		<!-- /wp:columns -->
+		
 	<!-- /wp:post-template -->
 
 	<!-- wp:query-no-results -->

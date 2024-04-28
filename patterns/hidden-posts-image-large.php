@@ -28,6 +28,7 @@
 
 				<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"pulitzer/post-reading-time"}}}} -->
 				<p><?php echo __('[read time]', 'pulitzer');?></p>
+				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 		</div>
@@ -42,6 +43,7 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
+		
 	<!-- /wp:post-template -->
 
 	<!-- wp:query-no-results -->
