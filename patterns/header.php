@@ -22,13 +22,14 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:navigation {"hasIcon":false,"layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0"},"layout":{"selfStretch":"fit","flexSize":null}}} -->
+				<!-- wp:navigation {"hasIcon":false,"layout":{"type":"flex","orientation":"horizontal"}} -->
 
 				<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'pulitzer' ); ?>","url":"#"} /-->
 				<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Profile', 'pulitzer' ); ?>","url":"#"} /-->
 				<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Newsletter', 'pulitzer' ); ?>","url":"#"} /-->
 
 				<!-- /wp:navigation -->
+
 			</div>
 			<!-- /wp:group -->
 		</div>
