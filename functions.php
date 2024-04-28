@@ -126,14 +126,6 @@ if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 				'style_handle'	=> 'pulitzer-post-terms'
 			)
 		);
-
-		register_block_style(
-			'jetpack/subscriptions',
-			array(
-				'name'  => 'pulitzer-subscriptions',
-				'label' => __( 'Styled form', 'women-at-work' ),
-			)
-		);
 		
 	}
 endif;
@@ -208,7 +200,7 @@ if ( ! function_exists( 'pulitzer_pattern_categories' ) ) :
 		);
 
 		register_block_pattern_category(
-			'pulitzer_pages',
+			'pulitzer-pages',
 			array(
 				'label'       => _x( 'Pulitzer Page Layouts', 'Block pattern category', 'pulitzer' ),
 				'description' => __( 'Full page layouts.', 'pulitzer' ),

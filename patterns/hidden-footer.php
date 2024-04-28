@@ -56,7 +56,7 @@
 
 				<!-- wp:column {"width":""} -->
 				<div class="wp-block-column">
-					<!-- wp:jetpack/subscriptions {"includeSocialFollowers":false,"buttonOnNewLine":true,"buttonWidth":"100%","submitButtonText":"Sign up","borderRadius":4,"spacing":16,"className":"is-style-pulitzer-subscriptions"} /-->
+					<!-- wp:jetpack/subscriptions {"includeSocialFollowers":false,"buttonOnNewLine":true,"buttonWidth":"100%","submitButtonText":"Sign up","borderRadius":4,"spacing":16} /-->
 				</div>
 				<!-- /wp:column -->
 			</div>

@@ -2,3 +2,8 @@
 	display: block;
 	width: 100% !important;
 }
+
+.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline.wp-block-jetpack-subscriptions__use-newline .wp-block-jetpack-subscriptions__subscount {
+	margin-top: 1em;
+	text-align: center;
+}
