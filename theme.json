@@ -872,6 +872,11 @@
 				"spacing": {
 					"blockGap": ".333333em"
 				}
+			},
+			"jetpack/like": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)"
+				}
 			}
 		},
 		"color": {

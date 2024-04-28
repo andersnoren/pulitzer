@@ -216,7 +216,7 @@ add_action( 'init', 'pulitzer_pattern_categories' );
 
 if ( ! function_exists( 'pulitzer_is_block_registered' ) ) :
 	/**
-	 * Check if a block is registered.
+	 * Check if a block is registered
 	 *
 	 * @since Pulitzer 1.0
 	 * @return bool

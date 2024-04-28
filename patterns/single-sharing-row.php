@@ -15,7 +15,7 @@ if ( pulitzer_is_block_registered( 'jetpack/like' ) || pulitzer_is_block_registe
 	<div class="wp-block-group">
 
 		<?php if ( pulitzer_is_block_registered( 'jetpack/like' ) ) : ?>
-			<!-- wp:jetpack/like {"className":"is-style-pulitzer-jetpack-like"} /-->
+			<!-- wp:jetpack/like /-->
 		<?php endif; ?>
 
 		<?php if ( pulitzer_is_block_registered( 'jetpack/sharing-buttons' ) ) : ?>
