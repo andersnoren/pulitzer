@@ -14,7 +14,7 @@
 		<div class="wp-block-columns"><!-- wp:column {"width":"30%"} -->
 			<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"fontSize":"small"} -->
 				<h2 class="wp-block-heading has-small-font-size">
-					<?php echo __('About', 'pulitzer');?>
+					<?php esc_html_e('About', 'pulitzer');?>
 				</h2>
 				<!-- /wp:heading -->
 			</div>
@@ -23,13 +23,13 @@
 			<!-- wp:column {"width":""} -->
 			<div class="wp-block-column"><!-- wp:paragraph -->
 				<p>
-					<?php echo __('I’m Joseph Pulitzer, a Hungarian-American newspaper publisher. Known for revolutionizing journalism, I left a lasting mark in the form of the Pulitzer Prize.', 'pulitzer');?>
+					<?php esc_html_e('I’m Joseph Pulitzer, a Hungarian-American newspaper publisher. Known for revolutionizing journalism, I left a lasting mark in the form of the Pulitzer Prize.', 'pulitzer');?>
 				</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph -->
 				<p>
-					<?php echo __('<a href="#"><em>Read more...</em></a>', 'pulitzer');?>
+					<?php esc_html_e('<a href="#"><em>Read more...</em></a>', 'pulitzer');?>
 				</p>
 				<!-- /wp:paragraph -->
 			</div>
@@ -48,7 +48,7 @@
 			<div class="wp-block-columns"><!-- wp:column {"width":"30%"} -->
 				<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"fontSize":"small"} -->
 					<h2 class="wp-block-heading has-small-font-size">
-						<?php echo __('Newsletter', 'pulitzer');?>
+						<?php esc_html_e('Newsletter', 'pulitzer');?>
 					</h2>
 					<!-- /wp:heading -->
 				</div>
@@ -71,7 +71,7 @@
 			<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:30%">
 				<!-- wp:heading {"fontSize":"small"} -->
 				<h2 class="wp-block-heading has-small-font-size">
-					<?php echo __('Follow Me', 'pulitzer');?>
+					<?php esc_html_e('Follow Me', 'pulitzer');?>
 				</h2>
 				<!-- /wp:heading -->
 			</div>
@@ -109,7 +109,7 @@
 					}
 				}
 			} -->
-			<p><?php echo __('© [year]', 'pulitzer');?></p>
+			<p><?php esc_html_e('© [year]', 'pulitzer');?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:site-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} /-->
@@ -118,7 +118,7 @@
 
 		<!-- wp:paragraph -->
 		<p>
-			<?php echo __('Theme by <a href="https://andersnoren.se">Anders Norén</a>', 'pulitzer');?>
+			<?php esc_html_e('Theme by <a href="https://andersnoren.se">Anders Norén</a>', 'pulitzer');?>
 		</p>
 		<!-- /wp:paragraph -->
 	</div>

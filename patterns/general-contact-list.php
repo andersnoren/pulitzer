@@ -8,27 +8,27 @@
 
 $pulitzer_contact_methods = array(
 	array(
-		'label' => esc_html__( 'Email', 'pulitzer' ),
+		'label' => esc_html_x( 'Email', 'Contact pattern placeholder content', 'pulitzer' ),
 		'value' => 'johnny@domain.com',
 		'url'   => 'mailto:'
 	),
 	array(
-		'label' => esc_html__( 'Phone', 'pulitzer' ),
+		'label' => esc_html_x( 'Phone', 'Contact pattern placeholder content', 'pulitzer' ),
 		'value' => '+1 (201) 555-55 55',
 		'url'   => 'tel:'
 	),
 	array(
-		'label' => esc_html__( 'Twitter/X', 'pulitzer' ),
+		'label' => esc_html_x( 'Twitter/X', 'Contact pattern placeholder content', 'pulitzer' ),
 		'value' => '@johnny_appleseed',
 		'url'   => 'https://twitter.com/'
 	),
 	array(
-		'label' => esc_html__( 'LinkedIn', 'pulitzer' ),
+		'label' => esc_html_x( 'LinkedIn', 'Contact pattern placeholder content', 'pulitzer' ),
 		'value' => '@johnny_appleseed',
 		'url'   => 'https://linkedin.com/'
 	),
 	array(
-		'label' => esc_html__( 'Instagram', 'pulitzer' ),
+		'label' => esc_html_x( 'Instagram', 'Contact pattern placeholder content', 'pulitzer' ),
 		'value' => '@johnny_appleseed',
 		'url'   => 'https://instagram.com/'
 	),

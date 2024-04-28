@@ -54,20 +54,8 @@
 		<div class="wp-block-group">
 			<!-- wp:post-terms {"term":"post_tag","separator":"  ","className":"is-style-pill is-style-pulitzer-post-terms","fontSize":"x-small"} /-->
 
-			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-			<div class="wp-block-group"><!-- wp:jetpack/like {"className":"is-style-pulitzer-jetpack-like"} /-->
+			<!-- wp:pattern {"slug":"pulitzer/hidden-single-sharing-row"} /-->
 
-				<!-- wp:jetpack/sharing-buttons {"styleType":"icon","iconColor":"contrast","iconColorValue":"#191716","iconBackgroundColor":"base","iconBackgroundColorValue":"#FFFFFF","style":{"spacing":{"blockGap":{"left":"0"}}}} -->
-				<ul class="wp-block-jetpack-sharing-buttons has-normal-icon-size jetpack-sharing-buttons__services-list"
-					id="jetpack-sharing-serivces-list"><!-- wp:jetpack/sharing-button {"service":"x","label":"X"} /-->
-
-					<!-- wp:jetpack/sharing-button {"service":"facebook","label":"Facebook"} /-->
-
-					<!-- wp:jetpack/sharing-button {"service":"linkedin","label":"LinkedIn"} /-->
-				</ul>
-				<!-- /wp:jetpack/sharing-buttons -->
-			</div>
-			<!-- /wp:group -->
 		</div>
 		<!-- /wp:group -->
 	</div>
@@ -79,9 +67,9 @@
 	<div class="wp-block-group">
 		<!-- wp:group {"tagName":"nav","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<nav aria-label="Posts" class="wp-block-group">
-			<!-- wp:post-navigation-link {"type":"previous","label":"Previous: ","showTitle":true,"arrow":"arrow","style":{"layout":{"selfStretch":"fill","flexSize":null}}} /-->
+			<!-- wp:post-navigation-link {"type":"previous","label":"<?php esc_html_e( 'Previous:', 'pulitzer' ); ?> ","showTitle":true,"arrow":"arrow","style":{"layout":{"selfStretch":"fill","flexSize":null}}} /-->
 
-			<!-- wp:post-navigation-link {"textAlign":"right","label":"Next: ","showTitle":true,"arrow":"arrow","style":{"layout":{"selfStretch":"fill","flexSize":null}}} /-->
+			<!-- wp:post-navigation-link {"textAlign":"right","label":"<?php esc_html_e( 'Next:', 'pulitzer' ); ?> ","showTitle":true,"arrow":"arrow","style":{"layout":{"selfStretch":"fill","flexSize":null}}} /-->
 		</nav>
 		<!-- /wp:group -->
 	</div>

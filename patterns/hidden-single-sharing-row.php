@@ -11,7 +11,7 @@
  */
 if ( pulitzer_is_block_registered( 'jetpack/like' ) || pulitzer_is_block_registered( 'jetpack/sharing-buttons' ) ) : 
 	?>
-	<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+	<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
 	<div class="wp-block-group">
 
 		<?php if ( pulitzer_is_block_registered( 'jetpack/like' ) ) : ?>

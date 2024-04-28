@@ -36,13 +36,12 @@ add_action( 'wp_enqueue_scripts', 'pulitzer_styles' );
 /**
  * Add custom template part areas.
  */
-
 if ( ! function_exists( 'pulitzer_template_part_areas' ) ) :
 	/**
 	 * Add custom template part areas
 	 *
 	 * @since Pulitzer 1.0
-	 * @return void
+	 * @return array
 	 */
 	function pulitzer_template_part_areas( array $areas ) {
 		$areas[] = array(
@@ -63,7 +62,6 @@ add_filter( 'default_wp_template_part_areas', 'pulitzer_template_part_areas' );
 /**
  * Register block styles.
  */
-
 if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 	/**
 	 * Register custom block styles
@@ -132,10 +130,10 @@ endif;
 
 add_action( 'init', 'pulitzer_block_styles' );
 
+
 /**
  * Enqueue block stylesheets.
  */
-
 if ( ! function_exists( 'pulitzer_block_stylesheets' ) ) :
 	/**
 	 * Enqueue custom block stylesheets
@@ -181,7 +179,6 @@ add_action( 'init', 'pulitzer_block_stylesheets' );
 /**
  * Register pattern categories.
  */
-
 if ( ! function_exists( 'pulitzer_pattern_categories' ) ) :
 	/**
 	 * Register pattern categories
@@ -215,7 +212,6 @@ add_action( 'init', 'pulitzer_pattern_categories' );
 /**
  * Check if a block is registered.
  */
-
 if ( ! function_exists( 'pulitzer_is_block_registered' ) ) :
 	/**
 	 * Check if a block is registered
@@ -229,13 +225,10 @@ if ( ! function_exists( 'pulitzer_is_block_registered' ) ) :
 	}
 endif;
 
-add_action( 'init', 'pulitzer_is_block_registered' );
-
 
 /**
  * Register custom block bindings.
  */
-
 if ( ! function_exists( 'pulitzer_register_block_bindings' ) ) :
 	/**
 	 * Register custom block bindings
@@ -288,7 +281,6 @@ add_action( 'init', 'pulitzer_register_block_bindings' );
  * Block bindings callback:
  * Copyright character with current year.
  */
-
 if ( ! function_exists( 'pulitzer_block_binding_callback_copyright_year' ) ) :
 	/**
 	 * Block bindings callback
@@ -335,7 +327,6 @@ endif;
  * Block bindings callback:
  * Post reading time.
  */
-
 if ( ! function_exists( 'pulitzer_block_binding_callback_post_reading_time' ) ) :
 	/**
 	 * Block bindings callback
