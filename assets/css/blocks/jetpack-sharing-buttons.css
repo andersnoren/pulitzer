@@ -1,0 +1,7 @@
+a.jetpack-sharing-button__button[style*="color:#191716;"] {
+	color: var( --wp--preset--color--contrast ) !important;
+}
+
+a.jetpack-sharing-button__button[style*="background-color:#FFFFFF;"] {
+	background-color: var( --wp--preset--color--base ) !important;
+}

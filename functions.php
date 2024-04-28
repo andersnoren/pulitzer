@@ -128,11 +128,10 @@ if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 		);
 
 		register_block_style(
-			'jetpack/like',
+			'jetpack/subscriptions',
 			array(
-				'name'			=> 'pulitzer-jetpack-like',
-				'label'			=> __( 'Heart icon', 'pulitzer' ),
-				'style_handle'	=> 'pulitzer-jetpack-like'
+				'name'  => 'pulitzer-subscriptions',
+				'label' => __( 'Styled form', 'women-at-work' ),
 			)
 		);
 		
@@ -164,7 +163,8 @@ if ( ! function_exists( 'pulitzer_block_stylesheets' ) ) :
 			'core/query-pagination-numbers' => 'query-pagination-numbers',
 			'core/search'                   => 'search',
 			'core/social-links'             => 'social-links',
-			'jetpack/like'                  => 'jetpack-like',
+			'jetpack/sharing-buttons'       => 'jetpack-sharing-buttons',
+			'jetpack/subscriptions'         => 'jetpack-subscriptions',
 		);
 
 		foreach ( $pulitzer_styled_blocks as $block_name_with_namespace => $block_name ) {

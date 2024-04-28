@@ -6,8 +6,6 @@
 }
 
 :root .is-style-pulitzer-post-terms:not(.has-text-color) a:hover {
-	background-color: var( --wp--preset--color--contrast );
-	border-color: transparent;
-	color: var( --wp--preset--color--base );
+	background-color: var( --wp--preset--color--contrast-4 );
 	text-decoration: none;
 }
