@@ -222,9 +222,9 @@
 			"core/avatar": {
 				"border": {
 					"color": "var(--wp--preset--color--contrast-5)",
+					"radius": "90px",
 					"style": "solid",
-					"width": "1px",
-					"radius": "90px"
+					"width": "1px"
 				}
 			},
 			"core/button": {

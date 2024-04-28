@@ -26,7 +26,10 @@ body {
 a {
 	text-decoration-thickness: 1px;
 	text-underline-offset: 0.15em;
-	transition: color .1s linear;
+}
+
+a, .wp-element-button {
+	transition: color .1s linear, background-color .1s linear;
 }
 
 

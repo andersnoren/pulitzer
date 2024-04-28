@@ -126,6 +126,15 @@ if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 				'style_handle'	=> 'pulitzer-post-terms'
 			)
 		);
+
+		register_block_style(
+			'jetpack/like',
+			array(
+				'name'			=> 'pulitzer-jetpack-like',
+				'label'			=> __( 'Heart icon', 'pulitzer' ),
+				'style_handle'	=> 'pulitzer-jetpack-like'
+			)
+		);
 		
 	}
 endif;
@@ -155,6 +164,7 @@ if ( ! function_exists( 'pulitzer_block_stylesheets' ) ) :
 			'core/query-pagination-numbers' => 'query-pagination-numbers',
 			'core/search'                   => 'search',
 			'core/social-links'             => 'social-links',
+			'jetpack/like'                  => 'jetpack-like',
 		);
 
 		foreach ( $pulitzer_styled_blocks as $block_name_with_namespace => $block_name ) {
