@@ -5,6 +5,7 @@
  * Categories: pulitzer
  * Viewport width: 800
  */
+
 $pulitzer_contact_methods = array(
 	array(
 		'label' => esc_html__( 'Email', 'pulitzer' ),
@@ -32,7 +33,6 @@ $pulitzer_contact_methods = array(
 		'url'   => 'https://instagram.com/'
 	),
 );
-
 ?>
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"},"fontSize":"small","fontFamily":"system-sans-serif"} -->
