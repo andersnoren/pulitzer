@@ -1,0 +1,4 @@
+.wp-block-navigation__responsive-container.is-menu-open {
+	--wp--style--root--padding-bottom: var(--wp--style--root--padding-right);
+	--wp--style--root--padding-top: var(--wp--style--root--padding-right);
+}

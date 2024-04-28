@@ -156,6 +156,7 @@ if ( ! function_exists( 'pulitzer_block_stylesheets' ) ) :
 		$pulitzer_styled_blocks = array(
 			'core/button'                   => 'button',
 			'core/comments'                 => 'comments',
+			'core/navigation'               => 'navigation',
 			'core/paragraph'                => 'paragraph',
 			'core/post-comments-count'      => 'post-comments-count',
 			'core/post-comments-form'       => 'post-comments-form',
