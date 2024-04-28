@@ -99,10 +99,17 @@
 	<div class="wp-block-group has-contrast-2-color has-text-color has-link-color has-system-sans-serif-font-family has-x-small-font-size"
 		style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"0.275em"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group"><!-- wp:paragraph -->
-			<p>
-				<?php echo __('© 2024', 'pulitzer');?>
-			</p>
+		<div class="wp-block-group">
+			<!-- wp:paragraph {
+				"metadata":{
+					"bindings":{
+						"content":{
+							"source":"pulitzer/copyright-year"
+						}
+					}
+				}
+			} -->
+			<p><?php echo __('© [year]', 'pulitzer');?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:site-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} /-->

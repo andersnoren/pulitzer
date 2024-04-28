@@ -34,6 +34,13 @@ GNU General Public License for more details.
 Pulitzer is derived from the Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org.
 Pulitzer is derived from the Norrsken WordPress Theme, (C) 2024 Anders Norén.
 
+Pulitzer includes or bases code from the following resources:
+
+x3p0-ideas by Justin Tadlock
+Description: Block bindings API structure and reading time code.
+License: GNU General Public License, 3.0, https://www.gnu.org/licenses/gpl-3.0.html
+Source: https://github.com/x3p0-dev/x3p0-ideas
+
 Pulitzer bundles the following third-party resources:
 
 Newsreader font

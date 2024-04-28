@@ -228,3 +228,130 @@ if ( ! function_exists( 'pulitzer_is_block_registered' ) ) :
 endif;
 
 add_action( 'init', 'pulitzer_is_block_registered' );
+
+
+/**
+ * Register custom block bindings.
+ */
+
+if ( ! function_exists( 'pulitzer_register_block_bindings' ) ) :
+	/**
+	 * Register custom block bindings
+	 *
+	 * @since Pulitzer 1.0
+	 * @return void
+	 */
+	function pulitzer_register_block_bindings() {
+
+		/*
+		 * Copyright character with current year.
+		 */
+		register_block_bindings_source( 
+			'pulitzer/copyright-year', 
+			array(
+				'label'              => __( 'Copyright year', 'pulitzer' ),
+				'get_value_callback' => 'pulitzer_block_binding_callback_copyright_year'
+			)
+		);
+
+		/*
+		 * Copyright character with current year.
+		 */
+		register_block_bindings_source( 
+			'pulitzer/post-reading-time', 
+			array(
+				'label'              => __( 'Post reading time', 'pulitzer' ),
+				'get_value_callback' => 'pulitzer_block_binding_callback_post_reading_time'
+			)
+		);
+
+	}
+endif;
+
+add_action( 'init', 'pulitzer_register_block_bindings' );
+
+
+/*
+ * Block bindings callback:
+ * Copyright character with current year.
+ */
+
+if ( ! function_exists( 'pulitzer_block_binding_callback_copyright_year' ) ) :
+	/**
+	 * Block bindings callback
+	 * Copyright character with current year
+	 *
+	 * @since Pulitzer 1.0
+	 * @return string
+	 */
+	function pulitzer_block_binding_callback_copyright_year() {
+		return '&copy; ' . date( 'Y' );
+	}
+endif;
+
+
+/*
+ * Block bindings callback:
+ * Post reading time.
+ */
+
+if ( ! function_exists( 'pulitzer_block_binding_callback_post_reading_time' ) ) :
+	/**
+	 * Block bindings callback
+	 * Post reading time.
+	 *
+	 * @since Pulitzer 1.0
+	 * @return string
+	 */
+	function pulitzer_block_binding_callback_post_reading_time( array $source_args, WP_Block $block_instance, string $attribute_name ) {
+
+		$post_id = $block_instance->context['postId'] ?? get_the_ID();
+
+		/*
+		 * Calculate the reading time.
+		 * 
+		 * Based on code by Justin Tadlock.
+		 * https://github.com/x3p0-dev/x3p0-ideas/blob/master/src/Bindings/Post.php
+		 */
+
+		// Set words per minute to 200.
+		$words_per_min = 200;
+
+		// Strip tags and get the word count from the content.
+		$count = str_word_count( strip_tags( apply_filters( 'the_content', get_post_field( 'post_content', $post_id ) ) ) );
+
+		// Get the ceiling for minutes.
+		$time_mins  = intval( ceil( $count / $words_per_min ) );
+		$time_hours = 0;
+
+		// If more than 60 mins, calculate hours and get leftover mins.
+		if ( 60 <= $time_mins ) {
+			$time_hours = intval( floor( $time_mins / 60 ) );
+			$time_mins  = intval( $time_mins % 60 );
+		}
+
+		// Set up text for hours.
+		$text_hours = sprintf(
+			_n( '%d hour', '%d hours', $time_hours, 'pulitzer' ),
+			number_format_i18n( $time_hours )
+		);
+
+		// Set up text for minutes.
+		$text_mins = sprintf(
+			_n( '%d min', '%d min', $time_mins, 'pulitzer' ),
+			number_format_i18n( $time_mins )
+		);
+
+		// If there are no hours, just return the minutes.
+		// If there are no minutes, just return the hours.
+		if ( 0 >= $time_hours ) {
+			return sprintf( esc_html_x( '%s read', '%s = hours/minutes', 'pulitzer' ), $text_mins );
+		} elseif ( 0 >= $time_mins ) {
+			return sprintf( esc_html_x( '%s read', '%s = hours/minutes', 'pulitzer' ), $text_hours );
+		}
+
+		// Merge hours + minutes text.
+		return sprintf( esc_html_x( 'Test %1$s test %2$s read', '%1$s = hours, %2$s = minutes', 'pulitzer' ), $text_hours, $text_mins );
+		
+	}
+endif;

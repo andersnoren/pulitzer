@@ -10,6 +10,7 @@
 <div class="wp-block-query">
 
 	<!-- wp:post-template {"layout":{"type":"default","columnCount":3}} -->
+
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 		<div class="wp-block-group"><!-- wp:post-title {"isLink":true,"fontSize":"small"} /-->
 
@@ -24,10 +25,16 @@
 				</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph -->
-				<p>
-					<?php echo __('X min read', 'pulitzer');?>
-				</p>
+				<!-- wp:paragraph {
+					"metadata":{
+						"bindings":{
+							"content":{
+								"source":"pulitzer/post-reading-time"
+							}
+						}
+					}
+				} -->
+				<p><?php echo __('[read time]', 'pulitzer');?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
