@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: header
- * Slug: pulitzer/header
+ * Slug: pulitzer/hidden-header
  * Inserter: no
  */
 ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: posts-image-small
- * Slug: pulitzer/posts-image-small
+ * Slug: pulitzer/hidden-posts-image-small
  * Categories: hidden
  * Inserter: no
  */

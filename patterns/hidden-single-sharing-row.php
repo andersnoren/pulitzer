@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: single-sharing-row
- * Slug: pulitzer/single-sharing-row
+ * Slug: pulitzer/hidden-single-sharing-row
  * Categories: hidden
  * Inserter: no
  */

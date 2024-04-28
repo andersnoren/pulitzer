@@ -200,10 +200,18 @@ if ( ! function_exists( 'pulitzer_pattern_categories' ) ) :
 	function pulitzer_pattern_categories() {
 
 		register_block_pattern_category(
-			'pulitzer_page',
+			'pulitzer',
 			array(
-				'label'       => _x( 'Pages', 'Block pattern category', 'pulitzer' ),
-				'description' => __( 'A collection of full page layouts.', 'pulitzer' ),
+				'label'       => _x( 'Pulitzer', 'Block pattern category', 'pulitzer' ),
+				'description' => __( 'Patterns included in the Pulitzer theme.', 'pulitzer' ),
+			)
+		);
+
+		register_block_pattern_category(
+			'pulitzer_pages',
+			array(
+				'label'       => _x( 'Pulitzer Page Layouts', 'Block pattern category', 'pulitzer' ),
+				'description' => __( 'Full page layouts.', 'pulitzer' ),
 			)
 		);
 	}

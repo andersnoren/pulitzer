@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: footer
- * Slug: pulitzer/footer
+ * Slug: pulitzer/hidden-footer
  * Inserter: no
  */
 ?>

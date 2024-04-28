@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: single
- * Slug: pulitzer/single
+ * Slug: pulitzer/hidden-single
  * Categories: hidden
  * Inserter: no
  */
