@@ -35,12 +35,9 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"28%","layout":{"type":"constrained","justifyContent":"right"}} -->
-		<div class="wp-block-column" style="flex-basis:28%">
-			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"right"}} -->
-			<div class="wp-block-group">
-				<!-- wp:site-logo {"width":128,"shouldSyncIcon":true,"className":"is-style-rounded"} /--></div>
-			<!-- /wp:group -->
+		<!-- wp:column {"width":"1em","layout":{"type":"constrained","justifyContent":"right"},"fontSize":"massive"} -->
+		<div class="wp-block-column has-massive-font-size" style="flex-basis:1em">
+			<!-- wp:site-logo {"width":128,"shouldSyncIcon":true,"className":"is-style-rounded"} /-->
 		</div>
 		<!-- /wp:column -->
 

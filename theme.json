@@ -211,6 +211,12 @@
 					"name": "XXL",
 					"size": "32px",
 					"slug": "xx-large"
+				},
+				{
+					"fluid": false,
+					"name": "Massive",
+					"size": "clamp( 96px, 12.8vw, 128px )",
+					"slug": "massive"
 				}
 			],
 			"writingMode": true

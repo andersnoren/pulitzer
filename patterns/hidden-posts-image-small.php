@@ -49,14 +49,10 @@
 			</div>
 			<!-- /wp:column -->
 
-			<!-- wp:column {"width":"28%"} -->
-			<div class="wp-block-column" style="flex-basis:28%">
-				<!-- wp:group {"layout":{"type":"constrained","justifyContent":"right","contentSize":"100%"}} -->
-				<div class="wp-block-group">
-					<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"1","width":"128px"} /--></div>
-				<!-- /wp:group -->
-			</div>
+			<!-- wp:column {"verticalAlignment":"center","width":"1em","layout":{"type":"constrained","justifyContent":"right"},"fontSize":"massive"} -->
+			<div class="wp-block-column is-vertically-aligned-center has-massive-font-size" style="flex-basis:1em"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"1","width":"1em","height":"1em"} /--></div>
 			<!-- /wp:column -->
+
 		</div>
 		<!-- /wp:columns -->
 		
