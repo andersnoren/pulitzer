@@ -1041,11 +1041,6 @@
 			"title": "Header"
 		},
 		{
-			"area": "uncategorized",
-			"name": "pagination",
-			"title": "Pagination"
-		},
-		{
 			"area": "posts",
 			"name": "posts",
 			"title": "Posts (default)"

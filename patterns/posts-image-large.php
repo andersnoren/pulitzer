@@ -44,6 +44,16 @@
 		<!-- /wp:group -->
 	<!-- /wp:post-template -->
 
-	<!-- wp:template-part {"slug":"pagination"} /-->
+	<!-- wp:query-no-results -->
+	<!-- wp:pattern {"slug":"pulitzer/hidden-no-results"} /-->
+	<!-- /wp:query-no-results -->
+
+	<!-- wp:query-pagination {"paginationArrow":"arrow","textColor":"primary","layout":{"type":"flex","justifyContent":"space-between"}} -->
+	<!-- wp:query-pagination-previous {"label":"<?php esc_html_e( 'Previous', 'pulitzer' ); ?>"} /-->
+
+	<!-- wp:query-pagination-numbers /-->
+
+	<!-- wp:query-pagination-next {"label":"<?php esc_html_e( 'Next', 'pulitzer' ); ?>"} /-->
+	<!-- /wp:query-pagination -->
 </div>
 <!-- /wp:query -->
