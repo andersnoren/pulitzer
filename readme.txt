@@ -59,5 +59,5 @@ Source: https://commons.wikimedia.org/wiki/File:JosephPulitzerPinceNeznpsgov.jpg
 
 == Changelog ==
 
-Version 1.0.0 (2024-04-XX)
+Version 1.0.0 (2024-04-28)
 -------------------------

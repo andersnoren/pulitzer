@@ -1,6 +1,6 @@
 # Pulitzer
 
-Pulitzer is a...
+Pulitzer is a minimal blog theme designed for writers, with special consideration for newsletters. It features a reading time indicator, four different archive layouts to choose from, like and share buttons on single posts, and a newsletter subscribe form in the footer. The like/share buttons and subscribe form requires the Jetpack plugin to be active and the Subscription feature to be enabled. Demo: https://pulitzer.andersnoren.se
 
 ![Pulitzer](https://github.com/andersnoren/pulitzer/blob/main/screenshot.png)
 
