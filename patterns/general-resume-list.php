@@ -3,6 +3,7 @@
  * Title: Resume list
  * Slug: pulitzer/general-resume-list
  * Categories: pulitzer
+ * Viewport width: 800
  */
 ?>
 

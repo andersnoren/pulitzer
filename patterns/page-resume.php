@@ -3,6 +3,7 @@
  * Title: Page: Resume
  * Slug: pulitzer/page-resume
  * Categories: pulitzer, pulitzer-pages
+ * Viewport width: 800
  */
 ?>
 

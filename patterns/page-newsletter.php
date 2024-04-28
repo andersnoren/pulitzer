@@ -3,6 +3,7 @@
  * Title: Page: Newsletter
  * Slug: pulitzer/page-newsletter
  * Categories: pulitzer, pulitzer-pages
+ * Viewport width: 800
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained"}} -->
