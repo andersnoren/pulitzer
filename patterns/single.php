@@ -36,15 +36,7 @@
 				</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {
-					"metadata":{
-						"bindings":{
-							"content":{
-								"source":"pulitzer/post-reading-time"
-							}
-						}
-					}
-				} -->
+				<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"pulitzer/post-reading-time"}}}} -->
 				<p><?php echo __('[read time]', 'pulitzer');?></p>
 			</div>
 			<!-- /wp:group -->

@@ -255,7 +255,18 @@ if ( ! function_exists( 'pulitzer_register_block_bindings' ) ) :
 		);
 
 		/*
-		 * Copyright character with current year.
+		 * Comments count for the current post.
+		 */
+		register_block_bindings_source( 
+			'pulitzer/post-comments-count', 
+			array(
+				'label'              => __( 'Post comments count', 'pulitzer' ),
+				'get_value_callback' => 'pulitzer_block_binding_callback_post_comments_count'
+			)
+		);
+
+		/*
+		 * Post reading time for the current post.
 		 */
 		register_block_bindings_source( 
 			'pulitzer/post-reading-time', 
@@ -286,6 +297,34 @@ if ( ! function_exists( 'pulitzer_block_binding_callback_copyright_year' ) ) :
 	 */
 	function pulitzer_block_binding_callback_copyright_year() {
 		return '&copy; ' . date( 'Y' );
+	}
+endif;
+
+
+/*
+ * Block bindings callback:
+ * Post comments count.
+ */
+
+if ( ! function_exists( 'pulitzer_block_binding_callback_post_comments_count' ) ) :
+	/**
+	 * Block bindings callback
+	 * Post reading time.
+	 *
+	 * @since Pulitzer 1.0
+	 * @return string
+	 */
+	function pulitzer_block_binding_callback_post_comments_count( array $source_args, WP_Block $block_instance, string $attribute_name ) {
+		$post_id = $block_instance->context['postId'] ?? get_the_ID();
+
+		if ( ! comments_open( $post_id ) ) return false;
+
+		$comments_link = '<a class="pulitzer-comment-count-link" href="' . esc_url( get_comments_link( $post_id ) ) . '">';
+		$comments_link .= '<span class="count">' . esc_html( get_comments_number( $post_id ) ) . '</span>';
+		$comments_link .= '</a>';
+
+		return $comments_link;
+
 	}
 endif;
 

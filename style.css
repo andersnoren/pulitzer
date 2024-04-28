@@ -84,3 +84,45 @@ footer.wp-block-template-part a[href="https://andersnoren.se"] {
 footer.wp-block-template-part a[href="https://andersnoren.se"]:hover {
 	text-decoration: underline;
 }
+
+
+/*
+ * Block binding: Comment count link.
+ */
+
+.pulitzer-comment-count-link {
+	text-decoration: none;
+}
+
+@supports( mask-image: url() ) {
+
+	.pulitzer-comment-count-link {
+		padding-left: 1.5714285714em;
+		position: relative;
+	}
+
+	.pulitzer-comment-count-link:before {
+		background: currentColor;
+		content: "";
+		display: block;
+		height: 1.1428571429em;
+		margin: 0 auto var( --wp--preset--spacing--30 ) auto;
+			-webkit-mask-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.99554 13.1943C6.25588 13.9238 7.73847 14.1699 9.16691 13.887C10.5953 13.604 11.8721 12.8112 12.7592 11.6564C13.6463 10.5016 14.0831 9.06361 13.9883 7.61051C13.8934 6.15741 13.2734 4.78839 12.2437 3.75871C11.214 2.72902 9.84497 2.10895 8.39187 2.01409C6.93876 1.91924 5.50076 2.35607 4.34595 3.24316C3.19114 4.13024 2.39835 5.40703 2.11539 6.83547C1.83243 8.26391 2.07862 9.7465 2.80804 11.0068L2.02617 13.3412C1.99679 13.4293 1.99253 13.5238 2.01386 13.6142C2.03519 13.7046 2.08127 13.7873 2.14694 13.8529C2.2126 13.9186 2.29526 13.9647 2.38565 13.986C2.47603 14.0074 2.57057 14.0031 2.65867 13.9737L4.99554 13.1943Z' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+		mask-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.99554 13.1943C6.25588 13.9238 7.73847 14.1699 9.16691 13.887C10.5953 13.604 11.8721 12.8112 12.7592 11.6564C13.6463 10.5016 14.0831 9.06361 13.9883 7.61051C13.8934 6.15741 13.2734 4.78839 12.2437 3.75871C11.214 2.72902 9.84497 2.10895 8.39187 2.01409C6.93876 1.91924 5.50076 2.35607 4.34595 3.24316C3.19114 4.13024 2.39835 5.40703 2.11539 6.83547C1.83243 8.26391 2.07862 9.7465 2.80804 11.0068L2.02617 13.3412C1.99679 13.4293 1.99253 13.5238 2.01386 13.6142C2.03519 13.7046 2.08127 13.7873 2.14694 13.8529C2.2126 13.9186 2.29526 13.9647 2.38565 13.986C2.47603 14.0074 2.57057 14.0031 2.65867 13.9737L4.99554 13.1943Z' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+			-webkit-mask-position: center;
+		mask-position: center;
+			-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+		position: absolute;
+			left: 0;
+			top: 50%;
+		transform: translateY( -50% );
+		width: 1.1428571429em;
+	}
+
+	.pulitzer-comment-count-link:hover:before {
+			-webkit-mask-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.99554 13.1943C6.25588 13.9238 7.73847 14.1699 9.16691 13.887C10.5953 13.604 11.8721 12.8112 12.7592 11.6564C13.6463 10.5016 14.0831 9.06361 13.9883 7.61051C13.8934 6.15741 13.2734 4.78839 12.2437 3.75871C11.214 2.72902 9.84497 2.10895 8.39187 2.01409C6.93876 1.91924 5.50076 2.35607 4.34595 3.24316C3.19114 4.13024 2.39835 5.40703 2.11539 6.83547C1.83243 8.26391 2.07862 9.7465 2.80804 11.0068L2.02617 13.3412C1.99679 13.4293 1.99253 13.5238 2.01386 13.6142C2.03519 13.7046 2.08127 13.7873 2.14694 13.8529C2.2126 13.9186 2.29526 13.9647 2.38565 13.986C2.47603 14.0074 2.57057 14.0031 2.65867 13.9737L4.99554 13.1943Z' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+		mask-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.99554 13.1943C6.25588 13.9238 7.73847 14.1699 9.16691 13.887C10.5953 13.604 11.8721 12.8112 12.7592 11.6564C13.6463 10.5016 14.0831 9.06361 13.9883 7.61051C13.8934 6.15741 13.2734 4.78839 12.2437 3.75871C11.214 2.72902 9.84497 2.10895 8.39187 2.01409C6.93876 1.91924 5.50076 2.35607 4.34595 3.24316C3.19114 4.13024 2.39835 5.40703 2.11539 6.83547C1.83243 8.26391 2.07862 9.7465 2.80804 11.0068L2.02617 13.3412C1.99679 13.4293 1.99253 13.5238 2.01386 13.6142C2.03519 13.7046 2.08127 13.7873 2.14694 13.8529C2.2126 13.9186 2.29526 13.9647 2.38565 13.986C2.47603 14.0074 2.57057 14.0031 2.65867 13.9737L4.99554 13.1943Z' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+	}
+
+}
