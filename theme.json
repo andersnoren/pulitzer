@@ -920,17 +920,8 @@
 						"offset": "2px"
 					}
 				},
-				":hover": {
-					"border": {
-						"color": "var(--wp--preset--color--contrast-2)"
-					},
-					"color": {
-						"background": "var(--wp--preset--color--contrast-2)",
-						"text": "var(--wp--preset--color--base)"
-					}
-				},
 				"border": {
-					"color": "var(--wp--preset--color--contrast)",
+					"color": "currentColor",
 					"radius": "4px"
 				},
 				"color": {
