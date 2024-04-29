@@ -19,7 +19,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-:where(.wp-site-blocks) > * {
+:root :where(.wp-site-blocks) > * {
 	margin-block-start: 0;
 }
 

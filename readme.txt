@@ -72,6 +72,7 @@ Version 1.0.1 (2024-04-XX)
 - Navigation: Set the current menu item to have the contrast text color.
 - Header: Removed the background color, since it's the same as the body background color.
 - Separator: Adjusted default vertical margins.
+- Fixed specificity issue with overwriting default spacing between direct descendants of .wp-site-blocks.
 - Updated theme description.
 
 Version 1.0.0 (2024-04-28)
