@@ -68,6 +68,7 @@ Version 1.0.1 (2024-04-XX)
 - Jetpack Like button: Improved alignment with sharing buttons on single posts.
 - Updated button hover styles.
 - Removed negative letter-spacing from the H1 and H2 headings.
+- Updated the default vertical spacing of the following blocks: Image, Video, Gallery, and Embed.
 - Updated theme description.
 
 Version 1.0.0 (2024-04-28)

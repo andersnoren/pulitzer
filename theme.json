@@ -421,8 +421,8 @@
 			"core/embed": {
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--70)",
-						"top": "var(--wp--preset--spacing--70)"
+						"bottom": "var(--wp--preset--spacing--80)",
+						"top": "var(--wp--preset--spacing--80)"
 					}
 				}
 			},
@@ -457,8 +457,8 @@
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--50)",
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--70)",
-						"top": "var(--wp--preset--spacing--70)"
+						"bottom": "var(--wp--preset--spacing--80)",
+						"top": "var(--wp--preset--spacing--80)"
 					}
 				}
 			},
@@ -468,8 +468,8 @@
 				},
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--70)",
-						"top": "var(--wp--preset--spacing--70)"
+						"bottom": "var(--wp--preset--spacing--80)",
+						"top": "var(--wp--preset--spacing--80)"
 					}
 				}
 			},
@@ -887,8 +887,8 @@
 			"core/video": {
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--70)",
-						"top": "var(--wp--preset--spacing--70)"
+						"bottom": "var(--wp--preset--spacing--80)",
+						"top": "var(--wp--preset--spacing--80)"
 					}
 				}
 			},
