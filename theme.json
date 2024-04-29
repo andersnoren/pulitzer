@@ -683,8 +683,8 @@
 				},
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--60)",
-						"top": "var(--wp--preset--spacing--60)"
+						"bottom": "var(--wp--preset--spacing--80)",
+						"top": "var(--wp--preset--spacing--80)"
 					},
 					"padding": {
 						"bottom": "0",

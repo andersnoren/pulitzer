@@ -74,6 +74,7 @@ Version 1.0.1 (2024-04-XX)
 - Separator: Adjusted default vertical margins.
 - Fixed specificity issue with overwriting default spacing between direct descendants of .wp-site-blocks.
 - Single: Allow the row with like and share buttons to wrap.
+- Pullquote: Bumped default vertical margin to 64px.
 - Footnotes: Improved styling.
 - Updated theme description.
 
