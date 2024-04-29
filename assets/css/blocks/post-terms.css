@@ -1,3 +1,21 @@
+.is-style-pulitzer-post-terms {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .57em;
+}
+
+.is-style-pulitzer-post-terms.has-text-align-center {
+	justify-content: center;
+}
+
+.is-style-pulitzer-post-terms.has-text-align-right {
+	justify-content: flex-end;
+}
+
+.is-style-pulitzer-post-terms .wp-block-post-terms__separator {
+	display: none;
+}
+
 .is-style-pulitzer-post-terms a {
 	border: 1px solid var( --wp--preset--color--contrast-4 );
 	border-radius: 4px;

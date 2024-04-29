@@ -29,7 +29,7 @@ a {
 }
 
 a, .wp-element-button {
-	transition: color .1s linear, background-color .1s linear, border-color .1s linear;
+	transition: color .1s linear, background-color .1s linear, border-color .1s linear, opacity .1s linear;
 }
 
 
