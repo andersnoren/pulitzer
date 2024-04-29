@@ -144,7 +144,6 @@ if ( ! function_exists( 'pulitzer_block_stylesheets' ) ) :
 	function pulitzer_block_stylesheets() {
 		
 		$pulitzer_styled_blocks = array(
-			'core/button'                   => 'button',
 			'core/comments'                 => 'comments',
 			'core/navigation'               => 'navigation',
 			'core/paragraph'                => 'paragraph',

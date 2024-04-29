@@ -66,9 +66,11 @@ Version 1.0.1 (2024-04-XX)
 - theme.json cleanup in styles:blocks.
 - Post Terms: Outlined terms block style – fixed links overlapping when there are multiple rows.
 - Jetpack Like button: Improved alignment with sharing buttons on single posts.
-- Updated button hover styles.
+- Removed button hover styles.
 - Removed negative letter-spacing from the H1 and H2 headings.
 - Updated the default vertical spacing of the following blocks: Image, Video, Gallery, and Embed.
+- Navigation: Set the current menu item to have the contrast text color.
+- Header: Removed the background color, since it's the same as the body background color.
 - Updated theme description.
 
 Version 1.0.0 (2024-04-28)

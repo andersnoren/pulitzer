@@ -1,3 +1,7 @@
+.wp-block-navigation:not(.has-text-color) .current-menu-item > a {
+	color: var( --wp--preset--color--contrast );
+}
+
 .wp-block-navigation__responsive-container.is-menu-open {
 	--wp--style--root--padding-bottom: var(--wp--style--root--padding-right);
 	--wp--style--root--padding-top: var(--wp--style--root--padding-right);

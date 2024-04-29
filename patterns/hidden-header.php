@@ -5,8 +5,8 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"border":{"bottom":{"color":"var:preset|color|contrast-5","width":"1px"},"top":[],"right":[],"left":[]}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide has-base-background-color has-background" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"border":{"bottom":{"color":"var:preset|color|contrast-5","width":"1px"},"top":[],"right":[],"left":[]}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 
 	<!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
 	<div class="wp-block-columns is-not-stacked-on-mobile">
