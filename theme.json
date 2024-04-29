@@ -418,9 +418,14 @@
 					"fontStyle": "normal"
 				}
 			},
-			"core/comments-pagination-next": [],
-			"core/comments-pagination-numbers": [],
-			"core/comments-pagination-previous": [],
+			"core/embed": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--70)",
+						"top": "var(--wp--preset--spacing--70)"
+					}
+				}
+			},
 			"core/file": {
 				"elements": {
 					"link": {
@@ -877,6 +882,14 @@
 			"core/social-links": {
 				"spacing": {
 					"blockGap": ".333333em"
+				}
+			},
+			"core/video": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--70)",
+						"top": "var(--wp--preset--spacing--70)"
+					}
 				}
 			},
 			"jetpack/like": {

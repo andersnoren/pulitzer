@@ -1,7 +1,8 @@
 .is-style-pulitzer-post-terms a {
 	border: 1px solid var( --wp--preset--color--contrast-4 );
 	border-radius: 4px;
-	padding: .4em .7142857143em;
+	display: inline-block;
+	padding: .3em .7142857143em;
 	transition: all .1s linear;
 }
 

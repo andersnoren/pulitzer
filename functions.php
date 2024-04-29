@@ -383,7 +383,7 @@ if ( ! function_exists( 'pulitzer_block_binding_callback_post_reading_time' ) ) 
 		}
 
 		// Merge hours + minutes text.
-		return sprintf( esc_html_x( 'Test %1$s test %2$s read', '%1$s = hours, %2$s = minutes', 'pulitzer' ), $text_hours, $text_mins );
+		return sprintf( esc_html_x( '%1$s %2$s read', '%1$s = hours, %2$s = minutes', 'pulitzer' ), $text_hours, $text_mins );
 		
 	}
 endif;
