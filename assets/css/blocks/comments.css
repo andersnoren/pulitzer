@@ -6,6 +6,7 @@
 .is-style-pulitzer-comment-reply-link a {
 	border: 1px solid var( --wp--preset--color--contrast-4 );
 	border-radius: 4px;
+	display: inline-flex;
 	padding: .33em .5em;
 	transition: all .1s linear;
 }
