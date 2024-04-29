@@ -73,6 +73,7 @@ Version 1.0.1 (2024-04-XX)
 - Header: Removed the background color, since it's the same as the body background color.
 - Separator: Adjusted default vertical margins.
 - Fixed specificity issue with overwriting default spacing between direct descendants of .wp-site-blocks.
+- Single: Allow the row with like and share buttons to wrap.
 - Footnotes: Improved styling.
 - Updated theme description.
 
