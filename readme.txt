@@ -67,6 +67,7 @@ Version 1.0.1 (2024-04-XX)
 - Post Terms: Outlined terms block style – fixed links overlapping when there are multiple rows.
 - Jetpack Like button: Improved alignment with sharing buttons on single posts.
 - Updated button hover styles.
+- Removed negative letter-spacing from the H1 and H2 headings.
 - Updated theme description.
 
 Version 1.0.0 (2024-04-28)
