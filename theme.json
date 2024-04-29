@@ -846,6 +846,12 @@
 				},
 				"color": {
 					"text": "var(--wp--preset--color--contrast-5)"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--70)",
+						"top": "var(--wp--preset--spacing--70)"
+					}
 				}
 			},
 			"core/site-tagline": {
