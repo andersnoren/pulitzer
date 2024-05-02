@@ -1,0 +1,46 @@
+{
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#F9F4EA",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#F2EDE3",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#555350",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#72706C",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "#DBD7CE",
+					"name": "Contrast / Four",
+					"slug": "contrast-4"
+				},
+				{
+					"color": "#EDE8DE",
+					"name": "Contrast / Five",
+					"slug": "contrast-5"
+				}
+			]
+		}
+	},
+	"title": "Parchment",
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
+}

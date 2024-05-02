@@ -59,7 +59,7 @@ Source: https://commons.wikimedia.org/wiki/File:JosephPulitzerPinceNeznpsgov.jpg
 
 == Changelog ==
 
-Version 1.0.1 (2024-04-XX)
+Version 1.0.1 (2024-05-XX)
 -------------------------
 - Fixed test output being included in pulitzer_block_binding_callback_post_reading_time().
 - Added default vertical margins to embed and video blocks.
@@ -78,7 +78,10 @@ Version 1.0.1 (2024-04-XX)
 - Fixed height of styled comment reply and edit links.
 - Footnotes: Improved styling.
 - Page layout patterns: Wrapped the content in constrained groups to improve the pattern preview layout.
+- Removed use of undefined `heading` fontFamily variable.
+- Simplified the theme.json values for headings.
 - Updated theme description.
+- New theme styles: Humanist, Parchment
 
 Version 1.0.0 (2024-04-28)
 -------------------------
