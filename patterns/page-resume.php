@@ -7,6 +7,8 @@
  */
 ?>
 
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
 <!-- wp:paragraph {"fontSize":"large"} -->
 <p class="has-large-font-size"><?php esc_html_e( 'I have a long and storied career in the newspaper and publishing industry behind me. Testimonials are available by request.', 'pulitzer' ); ?></p>
 <!-- /wp:paragraph -->
@@ -20,3 +22,5 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:pattern {"slug":"pulitzer/general-resume-list"} /-->
+</div>
+<!-- /wp:group -->

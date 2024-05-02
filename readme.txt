@@ -77,6 +77,7 @@ Version 1.0.1 (2024-04-XX)
 - Pullquote: Bumped default vertical margin to 64px.
 - Fixed height of styled comment reply and edit links.
 - Footnotes: Improved styling.
+- Page layout patterns: Wrapped the content in constrained groups to improve the pattern preview layout.
 - Updated theme description.
 
 Version 1.0.0 (2024-04-28)

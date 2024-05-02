@@ -7,6 +7,8 @@
  */
 ?>
 
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
 <!-- wp:paragraph {"fontSize":"large"} -->
 <p class="has-large-font-size"><?php esc_html_e( 'Hello! You’re probably here because you want to talk; there are a couple of ways to get in touch with me. Many of them are listed below.', 'pulitzer' ); ?></p>
 <!-- /wp:paragraph -->
@@ -16,3 +18,5 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:pattern {"slug":"pulitzer/general-contact-list"} /-->
+</div>
+<!-- /wp:group -->
