@@ -51,6 +51,10 @@ Comments icon
 License: MIT License, https://opensource.org/license/mit
 Source: https://phosphoricons.com
 
+Checkmark icon by Anders Norén
+License: Public Domain
+Source: Created for the theme
+
 === Images in screenshot.png ===
 
 Joseph Pulitzer photograph
@@ -82,8 +86,11 @@ Version 1.0.1 (2024-05-XX)
 - Removed use of undefined `heading` fontFamily variable.
 - Simplified the theme.json values for headings.
 - Set a default font size for input styles.
+- Block styles: Remove style_handle parameter, since the theme doesn't use it.
+- List: Increased default vertical margin.
+- List: Added "Checkmark icon" block style.
 - Updated theme description.
-- New theme styles: Humanist, Parchment
+- New theme styles: Humanist, Parchment.
 
 Version 1.0.0 (2024-04-28)
 -------------------------

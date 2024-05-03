@@ -74,54 +74,56 @@ if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 		register_block_style(
 			'core/comment-edit-link',
 			array(
-				'name'			=> 'pulitzer-comment-edit-link',
-				'label'			=> __( 'Button', 'pulitzer' ),
-				'style_handle'	=> 'pulitzer-comment-edit-link-icon'
+				'name'	=> 'pulitzer-comment-edit-link',
+				'label'	=> __( 'Button', 'pulitzer' )
 			)
 		);
 
 		register_block_style(
 			'core/comment-reply-link',
 			array(
-				'name'			=> 'pulitzer-comment-reply-link',
-				'label'			=> __( 'Button', 'pulitzer' ),
-				'style_handle'	=> 'pulitzer-comment-reply-link-icon'
+				'name'	=> 'pulitzer-comment-reply-link',
+				'label'	=> __( 'Button', 'pulitzer' )
+			)
+		);
+
+		register_block_style(
+			'core/list',
+			array(
+				'name'	=> 'pulitzer-list-checkmark',
+				'label'	=> __( 'Checkmark list', 'pulitzer' )
 			)
 		);
 
 		register_block_style(
 			'core/post-comments-number',
 			array(
-				'name'			=> 'pulitzer-post-comments-number-icon',
-				'label'			=> __( 'With icon', 'pulitzer' ),
-				'style_handle'	=> 'pulitzer-post-comments-number-icon'
+				'name'	=> 'pulitzer-post-comments-number-icon',
+				'label'	=> __( 'With icon', 'pulitzer' )
 			)
 		);
 
 		register_block_style(
 			'core/post-excerpt',
 			array(
-				'name'			=> 'pulitzer-clamp-lines-2',
-				'label'			=> __( 'Clamp: 2 lines', 'pulitzer' ),
-				'style_handle'	=> 'pulitzer-clamp-lines-2'
+				'name'	=> 'pulitzer-clamp-lines-2',
+				'label'	=> __( 'Clamp: 2 lines', 'pulitzer' )
 			)
 		);
 
 		register_block_style(
 			'core/post-excerpt',
 			array(
-				'name'			=> 'pulitzer-clamp-lines-3',
-				'label'			=> __( 'Clamp: 3 lines', 'pulitzer' ),
-				'style_handle'	=> 'pulitzer-clamp-lines-3'
+				'name'	=> 'pulitzer-clamp-lines-3',
+				'label'	=> __( 'Clamp: 3 lines', 'pulitzer' )
 			)
 		);
 
 		register_block_style(
 			'core/post-terms',
 			array(
-				'name'			=> 'pulitzer-post-terms',
-				'label'			=> __( 'Outlined terms', 'pulitzer' ),
-				'style_handle'	=> 'pulitzer-post-terms'
+				'name'	=> 'pulitzer-post-terms',
+				'label'	=> __( 'Outlined terms', 'pulitzer' )
 			)
 		);
 		
@@ -146,6 +148,7 @@ if ( ! function_exists( 'pulitzer_block_stylesheets' ) ) :
 		$pulitzer_styled_blocks = array(
 			'core/comments'                 => 'comments',
 			'core/footnotes'                => 'footnotes',
+			'core/list'                     => 'list',
 			'core/navigation'               => 'navigation',
 			'core/paragraph'                => 'paragraph',
 			'core/post-comments-form'       => 'post-comments-form',
