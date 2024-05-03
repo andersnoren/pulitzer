@@ -847,9 +847,6 @@
 							}
 						}
 					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/separator": {

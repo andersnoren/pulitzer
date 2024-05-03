@@ -61,6 +61,7 @@ label {
 	border-radius: 4px;
 	color: inherit;
 	font-family: var(--wp--preset--font-family--system-sans-serif);
+	font-size: var( --wp--preset--font-size--small );
 	line-height: 1.5;
 	margin: 0;
 	padding: .75em 1em;

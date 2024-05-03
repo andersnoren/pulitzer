@@ -81,6 +81,7 @@ Version 1.0.1 (2024-05-XX)
 - Page layout patterns: Wrapped the content in constrained groups to improve the pattern preview layout.
 - Removed use of undefined `heading` fontFamily variable.
 - Simplified the theme.json values for headings.
+- Set a default font size for input styles.
 - Updated theme description.
 - New theme styles: Humanist, Parchment
 
