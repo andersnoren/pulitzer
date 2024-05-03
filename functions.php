@@ -96,6 +96,14 @@ if ( ! function_exists( 'pulitzer_block_styles' ) ) :
 		);
 
 		register_block_style(
+			'core/list',
+			array(
+				'name'	=> 'pulitzer-list-checkmark-disc',
+				'label'	=> __( 'Circled checkmark list', 'pulitzer' )
+			)
+		);
+
+		register_block_style(
 			'core/post-comments-number',
 			array(
 				'name'	=> 'pulitzer-post-comments-number-icon',

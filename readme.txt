@@ -88,7 +88,7 @@ Version 1.0.1 (2024-05-XX)
 - Set a default font size for input styles.
 - Block styles: Remove style_handle parameter, since the theme doesn't use it.
 - List: Increased default vertical margin.
-- List: Added "Checkmark icon" block style.
+- List: Added "Checkmark icon" and "Circled checkmark list" block styles.
 - Updated theme description.
 - New theme styles: Humanist, Parchment.
 
