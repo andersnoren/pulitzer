@@ -28,7 +28,7 @@ add_action( 'after_setup_theme', 'pulitzer_setup' );
  * @return void
  */
 function pulitzer_styles() {
-	wp_enqueue_style( 'pulitzer-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'pulitzer' )->get( 'Version' ) );
+	wp_enqueue_style( 'pulitzer-styles', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'pulitzer' )->get( 'Version' ) );
 }
 add_action( 'wp_enqueue_scripts', 'pulitzer_styles' );
 
@@ -164,8 +164,8 @@ if ( ! function_exists( 'pulitzer_block_stylesheets' ) ) :
 				$block_name_with_namespace,
 				array(
 					'handle' => 'pulitzer-' . $block_name,
-					'src'    => get_theme_file_uri( 'assets/css/blocks/' . $block_name . '.css' ),
-					'path'   => get_theme_file_path( 'assets/css/blocks/' . $block_name . '.css' ),
+					'src'    => get_template_directory_uri() . '/assets/css/blocks/' . $block_name . '.css',
+					'path'   => get_template_directory() . '/assets/css/blocks/' . $block_name . '.css',
 				)
 			);
 		}
