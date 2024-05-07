@@ -63,7 +63,7 @@ Source: https://commons.wikimedia.org/wiki/File:JosephPulitzerPinceNeznpsgov.jpg
 
 == Changelog ==
 
-Version 1.0.1 (2024-05-XX)
+Version 1.0.1 (2024-05-07)
 -------------------------
 - Fixed test output being included in pulitzer_block_binding_callback_post_reading_time().
 - Added default vertical margins to embed and video blocks.
