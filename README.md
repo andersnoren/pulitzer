@@ -4,7 +4,7 @@ Pulitzer is a minimal blog theme designed for writers, with special consideratio
 
 ![Pulitzer](https://github.com/andersnoren/pulitzer/blob/main/screenshot.png)
 
-Once it's released, you'll be able to download the latest stable release of Pulitzer [from WordPress.org](https://wordpress.org/themes/pulitzer/).
+You can download the latest stable release of Pulitzer [from WordPress.org](https://wordpress.org/themes/pulitzer/).
 
 ## Installing Pulitzer
 1. Download the latest stable version of Pulitzer through the link above, unzip it and upload the theme folder to `wp-content/themes/` in your WordPress installation. You can also install it through Themes → Add New in your WordPress installation.
