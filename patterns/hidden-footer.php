@@ -88,7 +88,7 @@
 				<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default">
 					<!-- wp:social-link {"url":"https://twitter.com","service":"x"} /-->
 					<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
-					<!-- wp:social-link {"url":"/feed/","service":"feed"} /-->
+					<!-- wp:social-link {"url":"<?php echo trailingslashit( esc_url( home_url() ) ); ?>feed/","service":"feed"} /-->
 				</ul>
 				<!-- /wp:social-links -->
 			</div>

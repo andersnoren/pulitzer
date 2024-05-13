@@ -63,6 +63,10 @@ Source: https://commons.wikimedia.org/wiki/File:JosephPulitzerPinceNeznpsgov.jpg
 
 == Changelog ==
 
+Version 1.0.2 (2024-05-13)
+-------------------------
+- Fixed the default RSS feed URL in the footer social icons.
+
 Version 1.0.1 (2024-05-07)
 -------------------------
 - Fixed test output being included in pulitzer_block_binding_callback_post_reading_time().
