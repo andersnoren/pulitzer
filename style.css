@@ -1,7 +1,7 @@
 /*
 Theme Name: Pulitzer
 Text Domain: pulitzer
-Version: 1.0.2
+Version: 1.0.3
 Description: Pulitzer is a minimal blog theme designed for writers, with special consideration for newsletters. It features a reading time indicator, four different archive layouts to choose from, complete page patterns for your resume, newsletter, contact page, and archive, like and share buttons on single posts, and a newsletter subscribe form in the footer. The like/share buttons and subscribe form require the Jetpack plugin to be active and the Subscription feature to be enabled. Demo: https://pulitzer.andersnoren.se
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, blog, portfolio, news
 Author: Anders Norén
@@ -11,7 +11,7 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 6.5
 Requires PHP: 7.4
-Tested up to: 6.5
+Tested up to: 6.6
 */
 
 body {

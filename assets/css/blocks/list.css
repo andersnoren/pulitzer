@@ -24,17 +24,6 @@
 		width: 1.333333333em;
 	}
 
-	[class*="is-style-pulitzer-list-checkmark"] > li::before {
-		background: currentColor;
-		content: "";
-		height: 1.333333333em;
-		mask-size: contain;
-		position: absolute;
-			left: -2em;
-			top: -.05em;
-		width: 1.333333333em;
-	}
-
 	.is-style-pulitzer-list-checkmark > li::before {
 		mask-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.76357 14.655L17.9186 6.5L19.5 8.0814L9.76357 17.8178L4.5 12.5543L6.0814 10.9729L9.76357 14.655Z' fill='%23191716'/%3E%3C/svg%3E%0A");
 	}
