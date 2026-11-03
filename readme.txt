@@ -3,10 +3,16 @@ Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 6.5
 Requires PHP: 7.0
-Tested up to: 6.6
+Tested up to: 7.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+A minimal block theme for writers, with special consideration for newsletters.
+
+== Description ==
+
+Pulitzer is a minimal blog theme designed for writers, with special consideration for newsletters. It features a reading time indicator, four different archive layouts to choose from, complete page patterns for your resume, newsletter, contact page, and archive, like and share buttons on single posts, and a newsletter subscribe form in the footer. The like/share buttons and subscribe form require the Jetpack plugin to be active and the Subscription feature to be enabled. Demo: https://pulitzer.andersnoren.se
 
 == Installation ==
 
@@ -16,7 +22,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Copyright ==
 
-Pulitzer WordPress Theme, (C) 2024 Anders Norén.
+Pulitzer WordPress Theme, Copyright 2024-2026 Anders Norén.
 Pulitzer is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
@@ -61,7 +67,23 @@ Joseph Pulitzer photograph
 License: CC0, https://creativecommons.org/public-domain/cc0/
 Source: https://commons.wikimedia.org/wiki/File:JosephPulitzerPinceNeznpsgov.jpg
 
+== Frequently Asked Questions ==
+
+= Do I need Jetpack? =
+No, but the like and share buttons on single posts and the newsletter subscribe form in the footer require the Jetpack plugin, with the Subscriptions feature enabled.
+
+= Where can I get support? =
+Post your question in the Pulitzer support forum on WordPress.org: https://wordpress.org/support/theme/pulitzer/
+
+= Where can I request a feature or report a bug? =
+Open an issue in the Pulitzer GitHub repository: https://github.com/andersnoren/pulitzer
+
 == Changelog ==
+
+Version 1.0.4 (2026-11-03)
+-------------------------
+- Tested with WordPress 7.1.
+- Added Description, FAQ and Upgrade Notice sections to the readme, and updated the copyright years.
 
 Version 1.0.3 (2024-11-12)
 -------------------------
@@ -103,3 +125,8 @@ Version 1.0.1 (2024-05-07)
 
 Version 1.0.0 (2024-04-28)
 -------------------------
+
+== Upgrade Notice ==
+
+= 1.0.4 =
+Tested with WordPress 7.1.
